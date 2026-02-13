@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Data and Models
+data/
+outputs/
+results/
+*.pt
+*.bin
+*.safetensors
+unsloth_compiled_cache/
+
+# Logs
+*.log
+wandb/

@@ -1,0 +1,10 @@
+name: distil-coder
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - cuda-toolkit=12.1
+  - pip
+  - uv
+  - wandb

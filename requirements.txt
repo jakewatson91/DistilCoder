@@ -1,0 +1,22 @@
+# PyTorch for CUDA 12.1
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch>=2.4.0
+torchvision
+torchaudio
+
+# Unsloth + Core Fine-tuning Stack
+# Using the Python 3.12 compatible wheel
+unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
+xformers
+trl
+peft
+accelerate
+bitsandbytes
+datasets
+transformers
+pyyaml
+
+# Inference & Validation
+vllm>=0.6.0
+pydantic
+evalplus
